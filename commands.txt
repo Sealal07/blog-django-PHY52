@@ -1,0 +1,14 @@
+django-admin startproject blog
+cd blog
+python manage.py startapp post 
+python manage.py startapp userAcc
+python manage.py startapp userProfile 
+
+
+git init
+pip freeze > requirements.txt
+git add .
+git commit -m "chore: Initial project"
+git branch -M main
+git remote add <урл репо>
+git push -u origin main
