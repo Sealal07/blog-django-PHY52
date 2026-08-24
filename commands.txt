@@ -14,4 +14,38 @@ git remote add origin <урл репо>
 git push -u origin main 
 
 
+git checkout -b develop
+git push origin develop
 
+git checkout -b feature/blog-basic
+
+git add .
+git commit -m "feat: add Post model"
+
+python manage.py makemigrations
+git add .
+git commit -m "feat: create migrations Post model"
+
+
+python manage.py migrate 
+python manage.py createsuperuser 
+python manage.py runserver
+http://127.0.0.1:8000/admin 
+ctrl C
+
+git add .
+git commit -m "feat: register Post in admin panel"
+
+git add .
+git commit -m "feat: add post_list and post_details views"
+
+git add .
+git commit -m "feat: configure urls for post app"
+
+python manage.py runserver
+
+git add .
+git commit -m "feat: add templates for post(base,list, detail)"
+
+git push -u origin feature/blog-basic
+смерджить с develop
