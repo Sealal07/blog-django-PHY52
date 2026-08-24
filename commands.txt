@@ -14,4 +14,10 @@ git remote add origin <урл репо>
 git push -u origin main 
 
 
+git checkout -b develop
+git push origin develop
 
+git checkout -b feature/blog-basic
+
+git add .
+git commit -m "feat: add Post model"
