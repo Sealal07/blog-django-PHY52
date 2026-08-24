@@ -21,3 +21,7 @@ git checkout -b feature/blog-basic
 
 git add .
 git commit -m "feat: add Post model"
+
+python manage.py makemigrations
+git add .
+git commit -m "feat: create migrations Post model"
