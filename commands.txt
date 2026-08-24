@@ -38,3 +38,6 @@ git commit -m "feat: register Post in admin panel"
 
 git add .
 git commit -m "feat: add post_list and post_details views"
+
+git add .
+git commit -m "feat: configure urls for post app"
