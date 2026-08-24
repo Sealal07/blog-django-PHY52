@@ -48,4 +48,11 @@ git add .
 git commit -m "feat: add templates for post(base,list, detail)"
 
 git push -u origin feature/blog-basic
-смерджить с develop
+
+
+
+
+git checkout -b feature/auth-comments
+git add .
+git commit -m "feat: add auth field to Post model and create Comment model"
+git push -u origin feature/auth-comments
