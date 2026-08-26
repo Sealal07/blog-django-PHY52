@@ -73,3 +73,7 @@ git commit -m "feat: add PostCreate form and Comment form"
 
 git add .
 git commit -m "feat: add post_detail view with comment form"
+
+
+git add .
+git commit -m "feat: create, edit, delete post views"
