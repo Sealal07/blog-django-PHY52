@@ -67,3 +67,6 @@ git commit -m "feat: create migrations for author and comments"
 
 git add .
 git commit -m "feat: add author and Comment model in admin panel"
+
+git add .
+git commit -m "feat: add PostCreate form and Comment form"
