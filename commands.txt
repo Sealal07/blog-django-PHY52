@@ -79,3 +79,6 @@ git add .
 git commit -m "feat: create, edit, delete post views"
 git add .
 git commit -m "feat: add create, edit, delete post urls"
+
+git add .
+git commit -m "feat: add login/logout urls and settings"
