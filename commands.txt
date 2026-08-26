@@ -77,3 +77,5 @@ git commit -m "feat: add post_detail view with comment form"
 
 git add .
 git commit -m "feat: create, edit, delete post views"
+git add .
+git commit -m "feat: add create, edit, delete post urls"
