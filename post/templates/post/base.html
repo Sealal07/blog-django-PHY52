@@ -22,6 +22,9 @@
                 </form>
             {% else %}    
                 <a href="{% url 'login' %}">Войти</a>
+                <a href="{% url 'userAcc:register' %}">
+                    Регистрация
+                </a>
             {% endif %}
             <a href="/admin/" target="_blank">Админка</a>
         </nav>
