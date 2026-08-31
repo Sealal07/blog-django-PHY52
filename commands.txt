@@ -97,3 +97,6 @@ git push origin feature/auth-comments
 git checkout develop
 git pull origin develop
 git checkout -b feature/registration
+
+git add .
+git commit -m "feat: add register form"
