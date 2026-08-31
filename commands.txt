@@ -86,3 +86,14 @@ git commit -m "feat: add login/logout urls and settings"
 git add .
 git commit -m "feat: add login, create/edit post templates"
 git push origin feature/auth-comments
+python manage.py migrate
+python manage.py runserver
+
+
+git add .
+git commit -m "fix: logout and delete views"
+git push origin feature/auth-comments
+(на гитхаб создаем pr и мерджим ветку в develop)
+git checkout develop
+git pull origin develop
+git checkout -b feature/registration

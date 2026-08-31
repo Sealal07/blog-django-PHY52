@@ -104,6 +104,6 @@ def delete_post(request, post_id):
         'delete_confirm': True, #флаг для отображения кнопки подтверждения
         'page_title': f'Удаление {post.title}',
     }
-    return render(request, 'post/post_detail.html', context)
+    return render(request, 'post/post_details.html', context)
 
 
