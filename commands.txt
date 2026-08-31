@@ -118,3 +118,7 @@ git push origin feature/registration
 (на гитхаб создаем pr и мерджим ветку в develop)
 git checkout develop
 git pull origin develop
+git checkout -b feature/profiles 
+
+git add .
+git commit -m "feat: add Profile model with OneToOneField to User"
