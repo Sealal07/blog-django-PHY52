@@ -97,3 +97,24 @@ git push origin feature/auth-comments
 git checkout develop
 git pull origin develop
 git checkout -b feature/registration
+
+git add .
+git commit -m "feat: add register form"
+
+
+git add userAcc/views.py 
+git commit -m "feat: add register view with messages"
+
+git add userAcc/urls.py blog/urls.py 
+git commit -m "feat: configure registration urls"
+
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+
+git add .
+git commit -m "feat: add template for registeration"
+git push origin feature/registration
+(на гитхаб создаем pr и мерджим ветку в develop)
+git checkout develop
+git pull origin develop
