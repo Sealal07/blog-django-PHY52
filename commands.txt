@@ -122,3 +122,8 @@ git checkout -b feature/profiles
 
 git add .
 git commit -m "feat: add Profile model with OneToOneField to User"
+
+
+git add .
+git commit -m "feat: add signals for create and save profile"
+git push origin feature/profiles
