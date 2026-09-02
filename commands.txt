@@ -136,4 +136,6 @@ git commit -m "feat: create migrations for Profile model"
 
 git add .
 git commit -m "feat: register Profile and CustomUserAdmin"
+git add .
+git commit -m "feat: add profile editing forms"
 
