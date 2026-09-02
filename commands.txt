@@ -145,3 +145,5 @@ git commit -m "feat: add profile and profile edit views"
 
 git add .
 git commit -m "feat: add profile urls"
+git add .
+git commit -m "feat: add BlockCheckMiddleware"
