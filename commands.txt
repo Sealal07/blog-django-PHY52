@@ -142,3 +142,6 @@ git commit -m "feat: add profile editing forms"
 git add .
 git commit -m "feat: add profile and profile edit views"
 
+
+git add .
+git commit -m "feat: add profile urls"
