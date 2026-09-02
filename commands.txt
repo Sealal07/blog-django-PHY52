@@ -151,3 +151,5 @@ git add .
 git commit -m "feat: add profile templates"
 git add .
 git commit -m "feat: add configurations for profile"
+git add .
+git commit -m "feat: add profile link in base template"
