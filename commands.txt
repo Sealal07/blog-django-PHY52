@@ -133,3 +133,7 @@ python manage.py makemigrations
 python manage.py migrate
 git add .
 git commit -m "feat: create migrations for Profile model"
+
+git add .
+git commit -m "feat: register Profile and CustomUserAdmin"
+
