@@ -153,3 +153,10 @@ git add .
 git commit -m "feat: add configurations for profile"
 git add .
 git commit -m "feat: add profile link in base template"
+
+git add .
+git commit -m "fix: userAcc profile"
+git push origin feature/profiles
+(создать pr feature/profiles в develop)
+git checkout develop
+git pull origin develop

@@ -27,5 +27,5 @@ class BlockCheckMiddleware:
                 logout(request)
                 return redirect('login')
             
-            return self.get_response(request)
+        return self.get_response(request)
          
