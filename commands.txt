@@ -118,3 +118,45 @@ git push origin feature/registration
 (на гитхаб создаем pr и мерджим ветку в develop)
 git checkout develop
 git pull origin develop
+git checkout -b feature/profiles 
+
+git add .
+git commit -m "feat: add Profile model with OneToOneField to User"
+
+
+git add .
+git commit -m "feat: add signals for create and save profile"
+git push origin feature/profiles
+
+pip install pillow
+python manage.py makemigrations
+python manage.py migrate
+git add .
+git commit -m "feat: create migrations for Profile model"
+
+git add .
+git commit -m "feat: register Profile and CustomUserAdmin"
+git add .
+git commit -m "feat: add profile editing forms"
+
+git add .
+git commit -m "feat: add profile and profile edit views"
+
+
+git add .
+git commit -m "feat: add profile urls"
+git add .
+git commit -m "feat: add BlockCheckMiddleware"
+git add .
+git commit -m "feat: add profile templates"
+git add .
+git commit -m "feat: add configurations for profile"
+git add .
+git commit -m "feat: add profile link in base template"
+
+git add .
+git commit -m "fix: userAcc profile"
+git push origin feature/profiles
+(создать pr feature/profiles в develop)
+git checkout develop
+git pull origin develop
